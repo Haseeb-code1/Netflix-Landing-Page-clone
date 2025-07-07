@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(/netflix/img/bg.jpg);
+height: 70vh;
+
+position: relative;
+background-position: center center;
+background-repeat: no-repeat;
+background-size:max(1200px,100vw);
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+}
+nav img{
+    
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+   font-family: "Martel Sans", sans-serif;
+   
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+gap: 23px;
+position: relative;
+padding:  0 30px;
+
+
+}
+.hero> :nth-child(1){
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+    font-size:38px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: #202020f2;
+position: relative;
+
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.btn{
+    padding: 3px 8px;
+border-radius: 4px;
+cursor: pointer;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(18, 18, 18, 0.003);
+
+}
+.btn-red-sm{
+
+background-color: red;
+color:white;
+
+}
+.btn-red{
+    color: white;
+background-color: red;
+padding: 7px 24px;
+border-radius: 4px;
+font-weight: 400;
+}
+.main input{
+
+    color: rgb(250, 247, 247);
+ padding: 7px 28px;  
+ background-color: rgba(23, 23, 23, 0.359);
+ font-size: 12px;
+ font: bolder;
+ text-align: left;
+ border: 1px solid rgba(255, 255, 255, 0.422);
+ 
+}
+.first{
+ display: flex;
+ justify-content: center;
+ max-width: 70vw;
+ margin: auto;
+ color: white;
+ justify-content: center;
+ align-items: center;
+
+}
+.secimg {
+    position: relative;
+
+
+}
+.secimg img {
+position: relative;
+     width:555px;
+     z-index: 10;
+margin-top: 10px;
+}
+.secimg video {
+
+    position: absolute;
+top: 51px;
+right: 0;
+left: 1px;
+width: 480px;
+
+
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+} 
+section.first >div :first-child{
+font-size: 48px;
+font-weight: bolder;
+
+}
+section.first >div :nth-child(2){
+font-size: 24px;
+font-weight: bolder;
+
+}
+.secondimg{
+    
+position: relative;
+
+    left: -500px;
+    
+}
+#text2{
+   
+    
+    color: rgb(246, 243, 243);
+    
+    position: relative;
+    left: 200px;
+top: -250px;
+margin-right: 200px;
+    
+}
+h1{
+     color: white;
+    left: 238px;
+    position: relative;
+   top: -352px;
+    z-index: 3;
+    font-size: 32px;
+}
+section.faq{
+    width:100vw;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+left: -100px;
+
+
+}
+.box{
+position: relative;
+    background-color: rgb(3, 3, 3);
+    width: 80vw;
+    height:69vh;
+    right:150px ;
+        margin-top: 0px;
+    margin-right: -150px;
+
+}
+.box div{
+    
+    background-color: rgba(128, 128, 128, 0.262);
+    width:75vw;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+div p{
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+
+}
+svg{
+margin-right: 20px;
+    color: red;
+    background-color: red;
+}
+.bottom{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+h3{ margin: 50px;
+color: white;
+    text-align: center;
+}
+#button last{
+    background-color: black;
+}
+input{
+    width: 20vw;
+    color: rgb(250, 247, 247);
+    padding: 7px 28px;
+    background-color: rgba(23, 23, 23, 0.359);
+    font-size: 16px;
+    font: bolder;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.422);
+}
+#footlink {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+a{
+ font-size: 20px;
+    color: white;
+    ;
+    margin-left: 4px;
+   
+}
+footer{
+    height: 30vh;
+}
+.footl{
+    display: inline-block;
+    width:10vw;
+    height:10vh;
+}
+.dev{
+    background-color: red;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+p{ letter-spacing: 5px;
+    
+    
+    text-align: center;
+   color: white;
+   font-size: 19px;
+   font-weight: bolder;
+   margin: 10px;
+}
+.sec img{
+            position: relative;
+        left: -150px;
+        width: 400px;
+}
+@media(max-width:800px){
+.main{ 
+    
+
+  height:105vh;
+  width: 200vw;
+    
+}
+.main .box{
+ height: 105vh;   
+}
+.main input{
+    width: 50vw;
+    height: 4vh;
+    font-size:1.2rem;
+}
+.secimg img{
+    position: relative;
+    left: 320px;
+    width: 400px;
+
+}
+.secimg video{
+    left: 357px;
+    width: 60vw;
+}
+.first span{
+    display: inline;
+    position: relative;
+    left: 120px;
+    font-size: 9px;
+}
+section.first >div :first-child {
+    font-size: 19px;
+    font-weight: bolder;
+}
+section.first >div :nth-child(2) {
+    font-size: 16px;
+    font-weight: bolder;
+}
+.secondimg{
+            position: relative;
+        left: -33px !important;
+        width: 400px;
+}
+#text2 {
+        left: 420px;
+    top: -175px;
+    font-size: 24px;
+}
+div p{
+    font-size: 16px;
+}
+h1{
+        top: -175px;
+    z-index: 3;
+    font-size: 20px;
+}.box{
+ right: auto;   
+}
+.box div{
+        width: 133vw;
+}
+.bottom{
+        width: 199vw;
+}
+footer{
+        width: 199vw;
+}
+a{
+    margin-left: 27px;
+}
+nav img{
+    left: -200px;
+}
+nav button{
+        left: 200px;
+        ;
+}
+*{
+     font-family: "Poppins", sans-serif;
+}
+}
+@media(max-width:500px){
+    h1{
+        top: -365px;
+    }
+.secimg video{
+    left:370px ;
+    width: 80vw;
+    top: 69px;
+}
+}
