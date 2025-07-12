@@ -45,8 +45,8 @@ This is a **responsive clone** of the official Netflix landing page, built using
 
 
 🌐 Live Demo
+https://netflix-landing-page-clone-inky.vercel.app/
 
-https://netflix-landing-page-clone44-8o8y.vercel.app/
 👨‍💻 Developer
 Haseeb Tariq
 🎓 Software Engineering Student
