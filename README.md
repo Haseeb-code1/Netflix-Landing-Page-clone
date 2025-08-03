@@ -31,6 +31,7 @@ This is a **responsive clone** of the official Netflix landing page, built using
 ![127 0 0 1_5500_netflix_(Pixel 7)](https://github.com/user-attachments/assets/be062f2c-d42c-48aa-bf70-bc04ef88846e)
 
 
+live preview:https://688f846c910bb1836521d514--graceful-zuccutto-3704e5.netlify.app/
 
 ---
 
