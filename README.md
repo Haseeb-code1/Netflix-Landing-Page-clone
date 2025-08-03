@@ -44,8 +44,7 @@ This is a **responsive clone** of the official Netflix landing page, built using
 ├── favicon.ico
 
 
-🌐 Live Demo
-[https://netflix-landing-page-clone-inky.vercel.app/](https://netflix-landing-page-clone-8d5ibszmx-haseeb-code1s-projects.vercel.app/)
+
 
 👨‍💻 Developer
 Haseeb Tariq
