@@ -28,8 +28,11 @@ This is a **responsive clone** of the official Stream Max landing page, built us
 
 ## 🖼️ Preview
 
+<img width="4248" height="6896" alt="imaginative-belekoy-37da4a netlify app_" src="https://github.com/user-attachments/assets/64d54e99-4660-4467-abfe-c928fce2a99c" />
 
 
+Live preview
+https://imaginative-belekoy-37da4a.netlify.app/
 
 👨‍💻 Developer
 Haseeb Tariq
