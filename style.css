@@ -35,10 +35,11 @@ nav{
     height: 63px;
 }
 nav img{
-    
-    width: 114px;
+    margin-top: 43px;
+    width: 104px;
     position: relative;
     z-index: 10;
+    height: 80px;
 }
 nav button{
     position: relative;
