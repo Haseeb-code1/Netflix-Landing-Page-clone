@@ -1,6 +1,6 @@
-# 📺 Netflix Landing Page Clone – Pakistan Version 🇵🇰
+# 📺 Stream Max Landing Page Clone – Pakistan Version 🇵🇰
 
-This is a **responsive clone** of the official Netflix landing page, built using **HTML and CSS only**. It replicates the visual structure and style of the homepage, tailored for a Pakistan-based version.
+This is a **responsive clone** of the official Stream Max landing page, built using **HTML and CSS only**. It replicates the visual structure and style of the homepage, tailored for a Pakistan-based version.
 
 ---
 
@@ -22,27 +22,11 @@ This is a **responsive clone** of the official Netflix landing page, built using
 - **CSS3** (Flexbox & Media Queries)
 - Google Fonts: `Poppins`, `Martel Sans`
 - SVG icons for FAQ dropdowns
-- Netflix media assets
+- Stream Max media assets
 
 ---
 
 ## 🖼️ Preview
-
-![127 0 0 1_5500_netflix_(Pixel 7)](https://github.com/user-attachments/assets/be062f2c-d42c-48aa-bf70-bc04ef88846e)
-
-
-live preview:https://688f846c910bb1836521d514--graceful-zuccutto-3704e5.netlify.app/
-
----
-
-## 📁 Project Structure
-/netflix-clone/
-│
-├── index.html
-├── style.css
-├── img/
-│ └── bg.jpg, logo.svg
-├── favicon.ico
 
 
 
